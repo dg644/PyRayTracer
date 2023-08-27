@@ -1,0 +1,35 @@
+#Sphere: [center], radius, 'material name'
+Sphere: [0.6, 0.4, -4.0], 0.4, 'pink'
+Sphere: [1, 2.6, -4.75], 0.3, 'pink'
+
+#Box: [centre], [edge lengths], 'material name'
+Box: [-1, 1.5, -4.75], [0.5, 3, 0.5], 'blue'
+Box: [-0.5, 1.5, -4.75], [0.5, 0.5, 0.5], 'blue'
+Box: [0, 1.5, -4.75], [0.5, 3, 0.5], 'blue'
+Box: [1, 1, -4.75], [0.5, 2, 0.5], 'blue'
+Box: [2.2, 1.0, -5.0], [1.0, 2.0, 1.0], 'green'
+Box: [-2.2, 0.25, -5.0], [1.0, 0.5, 0.5], 'blue'
+
+#Floor: height, 'material name'
+Floor: 0, 'floor' 
+
+#Material: 'material', reflectiveness (0 not - 1 most reflective), [rgb colour value 0-1]
+Material: 'red', 0.2, [1, 0, 0]
+Material: 'green', 0.2, [0, 1, 0]
+Material: 'blue', 0.2, [0, 0, 1]
+Material: 'grey', 0.5, [0.3, 0.3, 0.3]
+Material: 'pink', 0.2, [0.95, 0.6, 0.95]
+Material: 'floor1', 0.3, [0.3, 0.3, 0.3]
+Material: 'floor2', 0.1, [0.7, 0.7, 0.7]
+
+#CamPos: [camera coordinates]
+CamPos: [0, 2, 0]
+#LightDir: [direction vector for the light]
+LightDir: [-1, 2, 1.5]
+#ScreenSize: width, height
+ScreenSize: 480,320
+#SkyColour: [rgb value for colour of sky]
+SkyColour: [0.53, 0.81, 0.92]
+
+#CamAngle
+CamAngle: 5

@@ -1,0 +1,39 @@
+#Sphere: center, radius, material name
+
+Box: [0.5, 1, -18], [5, 1, 1], 'yellow'
+Box: [0.5, 2, -18], [9, 1, 1], 'yellow'
+Box: [0.5, 3, -18], [11, 1, 1], 'yellow'
+Box: [0.5, 4, -18], [11, 1, 1], 'yellow'
+Box: [-1.0, 5, -18], [10, 1, 1], 'yellow'
+Box: [-2.5, 6, -18], [7, 1, 1], 'yellow'
+Box: [-3.5, 7, -18], [5, 1, 1], 'yellow'
+Box: [-2.5, 8, -18], [7, 1, 1], 'yellow'
+Box: [-1.0, 9, -18], [10, 1, 1], 'yellow'
+Box: [0.5, 10, -18], [11, 1, 1], 'yellow'
+Box: [0.5, 11, -18], [11, 1, 1], 'yellow'
+Box: [0.5, 12, -18], [9, 1, 1], 'yellow'
+Box: [0.5, 13, -18], [5, 1, 1], 'yellow'
+Sphere: [0, 10, -17.5], 0.75, 'black'
+
+Sphere: [6.5, 7, -18], 1, 'white'
+Sphere: [10.5, 7, -18], 1, 'white'
+Sphere: [14.5, 7, -18], 1, 'white'
+
+Floor: 0, 'floor' 
+
+#
+Material: 'yellow', 0, [1, 1, 0]
+Material: 'black', 0.3, [0, 0, 0]
+Material: 'white', 0.3, [0.9, 0.9, 0.9]
+Material: 'floor1', 0, [0.2, 0.2, 0.5]
+Material: 'floor2', 0, [0.3, 0.3, 1]
+
+#
+CamPos: [4, 7.1, 0]
+#
+LightDir: [-1, 2, 1.5]
+#
+ScreenSize: 480, 320
+#
+SkyColour: [0.53, 0.81, 0.92]
+
